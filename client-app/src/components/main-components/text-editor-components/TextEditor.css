@@ -1,0 +1,40 @@
+.text-editor-header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.text-editor-dark {
+    background-color: #1f1f1f;
+}
+
+.text-editor-light {
+    background-color: #f0f2f5;
+}
+
+.compiler {
+    width: 100%;
+    border-left: 1px solid;
+    height: 100%;
+}
+
+.visual-debugger-container {
+    border-left: 1px solid;
+    border-top: 1px solid;
+    height: 50%;
+}
+
+@keyframes zoom-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

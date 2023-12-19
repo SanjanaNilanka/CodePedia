@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    padding: 10px 0px;
+}
+
+.logo-text {
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.navigation-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+    padding-right: 25px;
+}
+
+.navigation-tabs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-tab {
+    font-family: "Play", sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navigation-tab:hover {
+    background-color: rgba(0, 114, 245, 0.15);
+    color: rgb(0, 114, 245);
+    border-radius: 10px;
+}
+
+.active-navigation-tab {
+    background-color: rgba(0, 114, 245, 0.15);
+    color: rgb(0, 114, 245);
+    border-radius: 10px;
+}
+
+@media (max-width:600px) {
+    .navigation-tabs-container {
+        display: none;
+    }
+}

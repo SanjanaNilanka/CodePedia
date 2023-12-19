@@ -1,0 +1,91 @@
+/* profile.css */
+
+/* Page Container */
+.profile-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+/* Headings */
+.Heading {
+  font-size: 34px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Form Elements */
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: medium;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Error Messages */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Save Button */
+.save-button {
+  background-color: #0072F5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.save-button:hover {
+  background-color: #0113cc;
+  cursor: pointer;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #CC0000;
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}

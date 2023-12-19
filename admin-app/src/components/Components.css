@@ -1,0 +1,151 @@
+.sidebar-container {
+    height: 100vh;
+    border-right: 1px solid #d9d9d9aa;
+}
+
+.logo-container {
+    padding: 20px;
+}
+
+.logo-text {
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 180px;
+}
+
+.navigation-tabs {
+    padding: 5px 15px;
+    height: 60vh;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px 5px;
+    cursor: pointer;
+    border-left: transparent solid;
+}
+
+.tab:hover {
+    background-color: rgba(0, 114, 245, 0.15);
+    border-left: solid;
+    color: rgb(0, 114, 245);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.tab-danger {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 8px 5px;
+    cursor: pointer;
+    border-left: transparent solid;
+}
+
+.tab-danger:hover {
+    background-color: rgb(220, 53, 69, 0.15);
+    color: rgb(220, 53, 69);
+    border-left: solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.active-tab {
+    background-color: rgba(0, 114, 245, 0.15);
+    color: rgb(0, 114, 245);
+    border-left: solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.popup {
+    position: absolute;
+    margin: auto;
+    outline: none;
+    animation: zoom-in 0.3s ease-out;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.8);
+    padding: 30px 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.logout-popup {
+    width: 600px;
+    height: 50vh;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.scrollable-container {
+    width: auto;
+    height: 88vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    text-align: justify;
+}
+
+.scrollable-container::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f4f4f4;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(0, 114, 245), rgb(0, 114, 245));
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.scrollable-container-dark::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+.scrollable-container-light::-webkit-scrollbar-track {
+    background-color: #f0f2f5;
+}
+
+.navbar-light {}
+
+.dark {
+    background-color: #171818;
+}
+
+.light {
+    background-color: #f0f2f5;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    padding: 0 15px;
+    border-bottom: 1px solid #d9d9d9aa;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}

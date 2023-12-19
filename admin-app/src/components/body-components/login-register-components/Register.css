@@ -1,0 +1,49 @@
+/* Register.css */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.heading1{
+  font-size: 25px;
+  font-weight: bold;
+  color: #404040;
+  text-align: center;
+padding-top: 1px;
+}
+
+
+.custom-card {
+  width: 350px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  height: auto;
+  border-radius:20px ;
+}
+/* Add this CSS to your Register.css file */
+.link-container {
+  text-align: center; /* Center-align the link */
+  margin-top: 1px; /* Add some top margin to separate it from the button */
+  font-size:13px
+}
+
+.link-container a {
+  text-decoration: none; /* Remove underline from the link */
+  color: #007bff; /* Blue color for the link (you can change this to your preferred color) */
+  font-weight: bold; /* Make the link text bold */
+}
+
+.link-container a:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+

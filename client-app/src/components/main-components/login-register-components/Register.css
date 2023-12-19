@@ -1,0 +1,94 @@
+/* Common styles for all screen sizes */
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Styles for headings */
+
+.heading1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Styles for the custom image and card */
+
+.custom-image {
+    width: 100%;
+    max-width: 500px;
+    /* Adjust the max-width for larger screens if needed */
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.custom-card {
+    width: 100%;
+    max-width: 350px;
+    /* Adjust the max-width for larger screens if needed */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 500px;
+}
+
+
+/* Styles for the link container */
+
+.link-container {
+    text-align: center;
+    margin-top: 1px;
+    font-size: 13px;
+}
+
+.link-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+
+@media (max-width: 768px) {
+    .custom-image {
+        max-width: 100%;
+        /* Adjust the image width to fit the screen */
+        height: auto;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        height: 500px;
+        object-fit: cover;
+    }
+    .custom-card {
+        max-width: 100%;
+        /* Adjust the card width to fit the screen */
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}

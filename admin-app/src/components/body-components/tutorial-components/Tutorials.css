@@ -1,0 +1,206 @@
+.tutorials-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tutorials-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    width: 19vw;
+    height: 15vh;
+    padding: 12px 15px;
+}
+
+form.primary-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+div.input-container {
+    position: relative;
+    width: 100%;
+}
+
+button.login {
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #010c80;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button.login:hover {
+    background-color: #0113cc;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.8);
+}
+
+span.login {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+section.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tutorial-card-container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 25px 0px 25px;
+    text-align: left;
+}
+
+.tutorial-card {
+    width: 30%;
+    min-height: 250px;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.tutorial-card-dark {
+    background-color: #000;
+}
+
+.tutorial-card-light {
+    background-color: #f0f2f5;
+}
+
+.fullscreen-open-btn {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+/*Tutorial Adding Preview Popup*/
+
+.preview-fullscreen-popup {
+    animation: zoom-in 0.3s ease-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    outline: none;
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+.dark-preview-fullscreen-popup {
+    background-color: #000;
+}
+
+.light-preview-fullscreen-popup {
+    background-color: #fff;
+}
+
+.preview-fullscreen-popup::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f4f4f4;
+}
+
+.preview-fullscreen-popup::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, rgb(0, 114, 245), rgb(0, 114, 245));
+}
+
+.preview-fullscreen-popup::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.dark-preview-fullscreen-popup::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+.light-preview-fullscreen-popup::-webkit-scrollbar-track {
+    background-color: #f0f2f5;
+}
+
+@keyframes zoom-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.preview-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    padding: 15px 20px;
+    width: 100vw;
+    z-index: 99;
+    border-bottom: 0.5px solid;
+}
+
+.preview-navbar-dark {
+    background-color: #000;
+}
+
+.preview-navbar-light {
+    background-color: #fff;
+}
+
+.sub-component-adding-container {
+    border: 2px solid;
+    padding: 30px 20px 20px 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.text-editor-dark {
+    background-color: #000;
+}
+
+.text-editor-dark-client {
+    background-color: #1f1f1f;
+}
+
+.text-editor-light {
+    background-color: #f0f2f5;
+}
+
+.text-editor {
+    border: 2px solid;
+    border-radius: 5px;
+}

@@ -1,0 +1,203 @@
+.landing-page {
+    margin: -20px;
+}
+
+.landing-flex-container {
+    display: flex;
+    background-image: linear-gradient(to right, #005BC4 0%, #09AACD 100%);
+    /* height: auto; */
+    height: 600px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.l-custom-image {
+    max-width: 100%;
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.text-container {
+    flex: 1.5;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    word-spacing: 0ch;
+    /* Adjust this property to control word spacing */
+}
+
+.sub-text-container1 {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+.sub-text-container2 {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #0a06fc 0%, #0a06fc 100%);
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    /* Set the desired font-family here */
+}
+
+.button-container:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+
+.button-container:active {
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+
+.heading-features {
+    padding: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/*card css for features*/
+
+.photo-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.photo-card {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.photo-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content img {
+    max-width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    padding-top: 15px;
+}
+
+
+/* Style for the footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* Style for the contact info and social links */
+
+.contact-info,
+.social-links {
+    flex: 1;
+}
+
+.contact-info h3,
+.social-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin-bottom: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+
+/* Style for the copyright text */
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
